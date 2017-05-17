@@ -1,0 +1,24 @@
+.container {
+	max-width: 720px;
+}
+
+.padding-left-zero {
+	padding-left: 0px;
+}
+
+.padding-right-zero {
+	padding-right: 0px;
+}
+
+.width-max {
+	margin-top: 16px;
+	width: 91.75%;!important
+}
+
+h3 {
+	padding: 20px 0px;
+	
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px rgba(255,255,255,.7));
+}

@@ -1,0 +1,14 @@
+.left-nav-sidebar {
+	position: -20vw;
+	height: 100vh;
+	background-color: #4e5d6c;
+}
+
+.container-avatar {
+	height: 20vh;
+}
+
+a.list-group-item, 
+button.list-group-item {
+	background-color: #2B3E50;
+}
