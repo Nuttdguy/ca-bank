@@ -19,7 +19,7 @@
 
 <!-- Custom styles for this template -->
 <link rel="stylesheet" href="bootstrap.min.css" >
-<link href="account-detail.css" rel="stylesheet" >
+<link href="add-account.css" rel="stylesheet" >
 
 <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -37,7 +37,8 @@
 
 	<div class="container-primary">
 	
-          <div class="col-lg-3 col-md-3 col-sm-4 sidebar-hide">
+		<div class="row ">
+          <div class="col-lg-3 col-md-3 col-sm-4">
           	<!-- for navigation left-side bar -->
 			<div class="left-nav-sidebar" >
 	            <div class="list-group table-of-contents">
@@ -53,49 +54,16 @@
 	            </div>
 	          </div>
 	        </div>
-	     
-	     <div class="container-body-content"> 
-	     
-			<div class="row text-center container-content container-top">
-				<div class="row text-center padding-top-118">
-					<!--   INSERT  IMAGE HERE   -->
-					<img src="Coinvault.png" alt="company logo" />
-					<h2>Checking | Wells Fargo</h2>
-					<h3>$5,000.21</h3>
-				</div>
+		</div>
+		
+		<div class="container">				
+			<div class="container-content container-top">
+				container-top for add account
 			</div>
-			
 			<div class="container-content container-bottom">
-				<div class="row text-center">
-					<h3>Account detail</h3>
-				</div>
-				<hr>
-				<table class="table table-striped table-hover ">
-				  <thead>
-				    <tr>
-				      <th>#</th>
-				      <th>Transaction Date</th>
-				      <th>Recipient</th>
-				      <th>Beginning Balance</th>
-				    </tr>
-				  </thead>
-				  <tbody>
-				    <tr>
-				      <td>1</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				    </tr>
-				    <tr>
-				      <td>2</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				    </tr>
-				  </tbody>
-				</table> 
+				container-bottom for add account
 			</div>
-		</div> <!--  END ROW  -->
+		</div>
 			
 	</div>
 </body>

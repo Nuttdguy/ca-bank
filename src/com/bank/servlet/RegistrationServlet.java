@@ -10,11 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/Registration")
-public class Registration extends HttpServlet {
+@WebServlet( {"/RegistrationServlet", "/registration"} )
+public class RegistrationServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    public Registration() {
+    public RegistrationServlet() {
         super();
     }
 

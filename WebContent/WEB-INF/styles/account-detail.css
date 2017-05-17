@@ -1,14 +1,73 @@
-.left-nav-sidebar {
-	position: -20vw;
-	height: 100vh;
+.sidebar-hide, div.left-nav-sidebar {
+	padding: 0;
+	position: fixed;
+	left: 0vw;
+	width: 20vw; 
+	height : 100vh;
 	background-color: #4e5d6c;
+	height: 100vh;
 }
 
 .container-avatar {
 	height: 20vh;
 }
 
-a.list-group-item, 
-button.list-group-item {
+a.list-group-item, button.list-group-item {
 	background-color: #2B3E50;
 }
+
+/**== 	BODY CONTENT: 	
+======================================**/
+div.container-body-content {
+	display: inline-block;
+	padding: 0 21px;
+	
+	width: 80vw;
+	height: 100%;
+	
+	position: relative;
+	left: 20vw;
+}
+
+div.container-top {
+	display: block;
+	width: 100%;
+	min-height: 40vh;
+	float: left;
+}
+
+div.container-top {
+	height: 40vh;
+}
+
+div.container-bottom {
+	/** add styles for bottom container **/
+}
+
+/**== 	CONTAINER-TOP  STYLES 	: 	
+======================================**/
+
+.padding-top-118 {
+	padding-top: 118px;
+}
+
+/**== 	CONTAINER-BOTTOM  STYLES 	: 	
+======================================**/
+
+div.row.text-center > h3 {
+	font-variant: small-caps;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
