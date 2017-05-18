@@ -37,7 +37,8 @@
 
 	<div class="container-primary">
 	
-          <div class="col-lg-3 col-md-3 col-sm-4 sidebar-hide">
+		<div class="row ">
+          <div class="col-lg-3 col-md-3 col-sm-4">
           	<!-- for navigation left-side bar -->
 			<div class="left-nav-sidebar" >
 	            <div class="list-group table-of-contents">
@@ -53,57 +54,16 @@
 	            </div>
 	          </div>
 	        </div>
-	     
-	     <div class="container-body-content"> 
-	     
-			<div class="row text-center container-top">
-				<div class="padding-top-118">
-					<!--   INSERT  IMAGE HERE   -->
-					<img src="Coinvault.png" alt="company logo" />
-					<h2 class="caption" >Checking | Wells Fargo</h2>
-					<h3 >$5,000.21</h3>
-					<div class="row  row-btn"  >
-						<div class="col col-md-6 col-offset-md-1 text-right">
-							<a href="deposit.jsp" class="btn btn-primary btn-md-wide">Deposit</a>
-						</div>
-						<div class="col col-md-5 text-left" >
-							<a href="withdraw.jsp" class="btn btn-primary btn-md-wide">Withdraw</a>
-						</div>						
-					</div>
-				</div>
+		</div>
+		
+		<div class="container">				
+			<div class="container-content container-top">
+				container-top for deposit 
 			</div>
-			
-			<div class="row container-bottom">
-				<div>
-					<h3 class="caption" >Account detail</h3>
-				</div>
-				<hr>
-				<table class="table table-striped table-hover ">
-				  <thead>
-				    <tr>
-				      <th>Transaction ID</th>
-				      <th>Transaction Date</th>
-				      <th>Recipient</th>
-				      <th>Beginning Balance</th>
-				    </tr>
-				  </thead>
-				  <tbody>
-				    <tr>
-				      <td>1</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				    </tr>
-				    <tr>
-				      <td>2</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				      <td>Column content</td>
-				    </tr>
-				  </tbody>
-				</table> 
+			<div class="container-content container-bottom">
+				container-bottom for deposit
 			</div>
-		</div> <!--  END ROW  -->
+		</div>
 			
 	</div>
 </body>

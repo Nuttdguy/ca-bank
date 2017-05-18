@@ -20,7 +20,7 @@ a.list-group-item, button.list-group-item {
 ======================================**/
 div.container-body-content {
 	display: inline-block;
-	padding: 0 21px;
+	padding: 0 21px 0 42px;
 	
 	width: 80vw;
 	height: 100%;
@@ -32,12 +32,11 @@ div.container-body-content {
 div.container-top {
 	display: block;
 	width: 100%;
-	min-height: 40vh;
 	float: left;
 }
 
 div.container-top {
-	height: 40vh;
+	height: 40%;
 }
 
 div.container-bottom {
@@ -51,12 +50,28 @@ div.container-bottom {
 	padding-top: 118px;
 }
 
+a.btn-md-wide {
+	display: inline-block;
+	width: 180px;
+}
+
+.row-btn {
+	display: block;
+	margin: 9px;
+	padding: 8px;
+}
+
+.caption {
+	font-variant: small-caps;
+}
+
 /**== 	CONTAINER-BOTTOM  STYLES 	: 	
 ======================================**/
 
-div.row.text-center > h3 {
+div.text-center > h3 {
 	font-variant: small-caps;
 }
+
 
 
 

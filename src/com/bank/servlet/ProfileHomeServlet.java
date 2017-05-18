@@ -22,7 +22,7 @@ public class ProfileHomeServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rs = request.getRequestDispatcher("account-detail.jsp");
+		RequestDispatcher rs = request.getRequestDispatcher("profile-home.jsp");
 		rs.forward(request, response);
 		
 	}
