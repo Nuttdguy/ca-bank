@@ -45,10 +45,10 @@
 	            		<img class="" alt="avatar" src="images.png" />
 	            	</div>
 	            	<div class="text-right">
-		              <a class="list-group-item" href="#navbar">Account Details</a>
-		              <a class="list-group-item" href="#buttons">Add Account</a>
-		              <a class="list-group-item" href="#typography">Profile &amp; Settings</a>
-		              <a class="list-group-item" href="#tables">Other Services</a>
+		              <a class="list-group-item" href="#account-detail">Account Details</a>
+		              <a class="list-group-item" href="#add-account">Add Account</a>
+		              <a class="list-group-item" href="#profile-setting">Profile &amp; Settings</a>
+		              <a class="list-group-item" href="#services">Other Services</a>
 	              </div>
 	            </div>
 	          </div>
