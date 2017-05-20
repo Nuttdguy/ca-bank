@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"  pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
+
+
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -8,7 +10,7 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <meta name="General Bank Web Application" content="">
 <meta name="Phouthalang Pygnasak" content="">
-<title>Bank Application</title>
+<title>Bank | Customer Registration </title>
 
 <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 <!-- Bootstrap core CSS -->

@@ -1,5 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"  pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
+<%@ page import="com.bank.model.Customer" %>
+<%@ page import="com.bank.model.BankCustomer" %>
+
+
+<% Customer customer = (BankCustomer) session.getAttribute("bankCustomer"); %>
+
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -32,6 +38,15 @@
 </head>
 	<div class="container">
 		<h3>- Check your email to confirm registration -</h3>
+		
+		<h3><% out.print( customer.getFirstName() ); %></h3>
+		<h3><% out.print( customer.getMiddleName() ); %></h3>
+		<h3><% out.print( customer.getLastName() ); %> </h3>
+		<h3><% out.print( customer.getAddress().getCity().getName() ); %></h3>
+		<h3><% out.print( customer.getAddress().getStreet() ); %></h3>
+		<h3><% out.print( customer.getAddress().getState().getName() ); %></h3>
+		<h3><% out.print( customer.getAddress().getCity().getZipCode() ); %></h3>
+		
 	</div>
 
 <body>
